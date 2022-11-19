@@ -1,0 +1,25 @@
+{
+  "name": "cla-mock-services",
+  "version": "1.0.0",
+  "description": "Mock Service Endpoints for Clinical Authoring",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js -e js,json"
+  },
+  "author": "Brandon Taylor",
+  "license": "APL",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "ip": "1.1.5",
+    "nodemon": "2.0.7",
+    "randomatic": "3.1.1"
+  },
+  "engines": {
+    "node": "14.14.0",
+    "npm": "6.14.11"
+  },
+  "devDependencies": {
+    "dotenv": "8.2.0"
+  }
+}
