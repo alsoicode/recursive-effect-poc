@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
+## Use
+
+- Open two terminals or split the VS Code terminal and `cd` into the `mock-services` in one terminal
+- Run the mock services with: `npm run start`
+- In the other terminal, run the Angular application: `ng serve`
+- Click the "Check Data Loaded" button
+- Actions will be dispatched until the mock services return a response of `{ dataLoaded: true }`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
